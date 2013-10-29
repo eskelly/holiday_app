@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
 
+gem 'simple_form', '~> 3.0.0'
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -13,12 +15,14 @@ gem 'sqlite3'
 gem 'coffee-rails'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+gem 'libv8'
 gem 'therubyracer', :platforms => :ruby
 
 gem 'uglifier', '>= 1.0.3'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-datepicker-rails'
 gem "less-rails"
+gem 'fullcalendar-rails'
 
 gem 'jquery-rails'
 
@@ -28,15 +32,14 @@ gem 'jquery-rails'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
 # To use debugger
 # gem 'debugger'
 
  gem 'thin'
 
  gem 'devise'
+
+# TODO temp until add strong params
+ # gem 'protected_attributes'
+
+ gem 'pry'
