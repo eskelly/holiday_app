@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    console.log('create js running');
     <% if @absence.errors.any? %>
       var error_html = '<%= escape_javascript(render_flash_messages) %>';
       var error_list = '<%= escape_javascript(show_errors_as_list(@absence.errors)) %>';

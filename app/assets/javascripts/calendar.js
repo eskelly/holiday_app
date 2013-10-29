@@ -29,12 +29,12 @@ $(document).ready(function() {
     $('#calendar').fullCalendar('gotoDate', currentYear, currentMonth);
   }
 
-  var monthParam = getParameterByName('month')
-    , yearParam = getParameterByName('year')
-    , monthAndYearParam = monthParam && yearParam;
+  // var monthParam = getParameterByName('month')
+  //   , yearParam = getParameterByName('year')
+  //   , monthAndYearParam = monthParam && yearParam;
 
-  if (monthAndYearParam) {
-    $('#calendar').fullCalendar('gotoDate', yearParam, monthParam);
-  }
+  // if (monthAndYearParam) {
+  //   $('#calendar').fullCalendar('gotoDate', yearParam, monthParam);
+  // }
 
 });

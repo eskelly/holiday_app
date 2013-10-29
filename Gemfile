@@ -43,3 +43,5 @@ gem 'jquery-rails'
  # gem 'protected_attributes'
 
  gem 'pry'
+
+ gem 'uuid'
